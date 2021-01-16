@@ -25,7 +25,7 @@ module.exports = {
         )
       )
       .then(apiBooks =>
-        db.Book.find().then(dbBooks =>
+        db.SearchedBook.find().then(dbBooks =>
           apiBooks.filter(apiBook =>
             dbBooks.every(dbBook => dbBook.googleId.toString() !== apiBook.id)
           )
