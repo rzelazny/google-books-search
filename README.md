@@ -3,7 +3,7 @@
 
 ## Description 
 
-
+A book search using Google Api. Enter a book title and get information on various editions of the book. Save favorites for reference offline. 
 
 ## Table of Contents
 
@@ -22,14 +22,16 @@ Local usage requires installation of node.js and mongoDB.
 
 Installation steps:
 1. "npm i" to install dependencies. 
-2. "npm run seed" to populate the database with employees
-3. "npm start" to start the server
+2. "npm start" to start the server
+
+Note that the client and the server have separate package dependencies, but the run script deploys both.
 
 ## Usage 
 
-![Image of react employee directory](https://github.com/rzelazny/react-employee-search/blob/main/public/assets/images/react-emp-directory-demo.png)
+![Image of react book search](https://github.com/rzelazny/react-employee-search/blob/main/client/src/components/images/book-search-demo.png)
 
-
+Enter a book title and hit the seatch button. The View button on results links to the Google books page, or hit save to save the information for later reference. Saved information can
+be accessed even without internet access.
 
 ## License
 
