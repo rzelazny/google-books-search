@@ -28,7 +28,7 @@ Note that the client and the server have separate package dependencies, but the 
 
 ## Usage 
 
-![Image of react book search](https://github.com/rzelazny/react-employee-search/blob/main/client/src/components/images/book-search-demo.png)
+![Image of react book search](https://github.com/rzelazny/react-employee-search/blob/client/src/components/images/book-search-demo.png)
 
 Enter a book title and hit the seatch button. The View button on results links to the Google books page, or hit save to save the information for later reference. Saved information can
 be accessed even without internet access.
