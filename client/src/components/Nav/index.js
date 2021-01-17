@@ -32,9 +32,10 @@ class Nav extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
+      <nav className="navbar navbar-expand-lg navbar-dark  mb-2">
         <Link className="navbar-brand" to="/">
-          Google Books
+          <span id="brand-blue">G</span><span id="brand-red">o</span><span id="brand-yellow">o</span>
+          <span id="brand-blue">g</span><span id="brand-green">l</span><span id="brand-red">e</span>  <span id="brand-search">Book Search</span>
         </Link>
         <button
           onClick={this.toggleNav}
@@ -48,7 +49,7 @@ class Nav extends Component {
           <span className="navbar-toggler-icon" />
         </button>
         <div className={`${this.state.open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link
                 onClick={this.toggleNav}

@@ -1,3 +1,27 @@
 .navbar {
+  background-image: url("./woodgrain.png");
   border-radius: 0;
+
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-size: 35px;
+}
+#brand-blue{
+  color: blue;
+}
+#brand-red{
+  color: red;
+}
+#brand-yellow{
+  color: yellow;
+}
+#brand-green{
+  color: green;
+}
+#brand-search{
+  font-size: 30px;
+  color:blanchedalmond
 }
