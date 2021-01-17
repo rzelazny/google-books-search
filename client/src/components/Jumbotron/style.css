@@ -1,6 +1,7 @@
 .jumbotron {
-  padding: 100px;
-  background-color: blanchedalmond
+  padding: 50px;
+  background-color: blanchedalmond;
+  max-height: 200px;
 }
 .jumbo-blue{
   color: blue;
