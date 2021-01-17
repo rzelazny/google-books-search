@@ -1,3 +1,16 @@
 .jumbotron {
   padding: 100px;
+  background-color: blanchedalmond
+}
+.jumbo-blue{
+  color: blue;
+}
+.jumbo-red{
+  color: red;
+}
+.jumbo-yellow{
+  color: gold;
+}
+.jumbo-green{
+  color: green;
 }
